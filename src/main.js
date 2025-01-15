@@ -8,7 +8,7 @@ import { creatGalleryCard } from './js/render-functions';
 
 const inputFormEl = document.querySelector('.form');
 const galleryCardList = document.querySelector('.search');
-const loader = document.querySelector('loader');
+const loader = document.querySelector('.loader');
 
 loader.style.display = 'none';
 
