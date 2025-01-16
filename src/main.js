@@ -7,7 +7,7 @@ import { creatingRequestPhoto } from './js/pixabay';
 import { creatGalleryCard } from './js/render-functions';
 
 const inputFormEl = document.querySelector('.form');
-const galleryCardList = document.querySelector('.search');
+const galleryCardList = document.querySelector('.gallery');
 const loader = document.querySelector('.loader');
 
 loader.style.display = 'none';
@@ -50,7 +50,7 @@ const searchingFoto = event => {
           backgroundColor: '#EF4040',
           messageColor: '#FFFFFF',
           message: `Sorry, there are no images matching your search query. Please try again!`,
-          position: 'topCenter',
+          position: 'topRight',
         });
       }
       galleryCardList.insertAdjacentHTML(

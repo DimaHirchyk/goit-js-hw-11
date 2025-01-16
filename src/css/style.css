@@ -5,6 +5,7 @@ img {
 ul,
 li {
   list-style-type: none;
+  padding: 0;
 }
 
 body {
@@ -69,4 +70,39 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.gallery-list {
+  border: 1px solid #808080;
+  max-width: 360px;
+}
+.gallery-link {
+}
+.gallery-img {
+  width: 360px;
+}
+.inform-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+}
+.inform-iteam {
+  text-align: center;
+}
+.inform-title {
+  font-weight: 600;
+  font-size: 12px;
+}
+.inform-par {
+  font-size: 12px;
+  align-items: center;
 }

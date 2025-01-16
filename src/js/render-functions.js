@@ -12,7 +12,7 @@ export function creatGalleryCard(arr) {
       }) =>
         ` <li class="gallery-list">
           <a class="gallery-link" href="${largeImageURL}">
-          <img class="gallery-img" src="${webformatURL}" alt="${tags}"></img></a>
+          <img class="gallery-img" src="${webformatURL}" alt="${tags}" width="360" loading="lazy"></img></a>
             <ul class="inform-list">
               <li class="inform-iteam">
                 <h3 class="inform-title">Likes:</h3>
